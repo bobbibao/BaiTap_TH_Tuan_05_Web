@@ -3,6 +3,7 @@ body {
     font-family: Verdana, sans-serif;
     font-size: 14px;
     line-height: 1.5;
+    letter-spacing: 0;
 }
 
 .grid-container {
@@ -23,7 +24,6 @@ body {
     grid-area: "content";
     padding: 30px 135px;
     height: 1000px;
-    background-color: aqua;
 }
 
 .footer {
@@ -74,4 +74,31 @@ body {
 .container a.active {
     color: black;
     font-weight: 600;
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.img4 {
+    grid-area: img4;
+}
+
+.img5 {
+    grid-area: img5;
+}
+
+.grid-image {
+    display: grid;
+    gap: 1;
+    grid-template-areas: 'img1 img2 img3' 'img1 img4 img5';
+    padding: 20px 0;
 }
