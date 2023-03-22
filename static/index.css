@@ -98,7 +98,45 @@ body {
 
 .grid-image {
     display: grid;
-    gap: 1;
+    gap:15px;
     grid-template-areas: 'img1 img2 img3' 'img1 img4 img5';
     padding: 20px 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container .left {
+    width: 67%;
+}
+
+.flex-container .right {
+    width: 27%;
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid rgb(187, 183, 183);
+}
+.icon1{grid-area: icon1;}
+.icon2{grid-area: icon2;}
+.icon3{grid-area: icon3;}
+.icon4{grid-area: icon4;}
+.icon5{grid-area: icon5;}
+.icon6{grid-area: icon6;}
+.grid-icon{
+    margin-top: 20px;
+    width: 50%;
+    display: grid;
+    grid-template-areas: "icon1 icon2" "icon3 icon4" "icon5  icon6";
+}
+.grid-icon div{
+ display: flex;
+ align-items: center;
+}
+.grid-icon div p{
+    margin: 10px;
+}
+.grid-icon div img{
+    margin-right: 10px;
 }
