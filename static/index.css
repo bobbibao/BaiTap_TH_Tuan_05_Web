@@ -113,10 +113,11 @@ body {
 }
 
 .flex-container .right {
+    margin-top: 10px;
     width: 27%;
-    padding: 15px;
-    border-radius: 3px;
-    border: 1px solid rgb(187, 183, 183);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(245, 243, 243);
 }
 .icon1{grid-area: icon1;}
 .icon2{grid-area: icon2;}
@@ -139,4 +140,29 @@ body {
 }
 .grid-icon div img{
     margin-right: 10px;
+}
+.drop{
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.btn{
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(15, 223, 223);
+}
+
+.add-cart{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(17, 224, 224);
+    border: 2px solid rgb(17, 224, 224);
+    border-radius: 5px;
+    margin: 15px 0 10px 0;
+    padding: 10px;
 }
