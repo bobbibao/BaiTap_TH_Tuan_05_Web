@@ -142,7 +142,7 @@ body {
     margin-right: 10px;
 }
 .drop{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(246, 246, 246);
     display: flex;
     padding: 10px;
     justify-content: space-between;
@@ -207,8 +207,35 @@ body {
 .footer .email{
     width: 400px;
     height: 35px;
-    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
     margin: auto;
+}
+.email input{
+    width: 70%;
+    height: 100%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(241, 241, 241);
+    padding: 5px 30px;
+    opacity: 0.6;
+}
+.email i{
+    position: relative;
+    left: 25px;
+    top: 16px;
+}
+.email button{
+    width: 30%;
+    height: 45px;
+    background-color: rgb(19, 211, 211);
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: none;
 }
 .info{
     width: 50%;
@@ -234,6 +261,9 @@ body {
 }
 .language p{
     margin: 0;
+}
+.language i{
+    padding-bottom:5px;
 }
 .coppyright{
     padding: 10px;
