@@ -22,7 +22,6 @@ body {
 .content {
     grid-area: "content";
     padding: 30px 135px;
-    height: 1000px;
 }
 
 .footer {
@@ -63,7 +62,6 @@ body {
 }
 
 .container {
-    height: 100%;
     padding: 5px;
 }
 
@@ -194,7 +192,66 @@ body {
     border: 1px solid rgb(244, 242, 242);
     border-radius: 5px;
     overflow: hidden;
+    margin-bottom: 30px;
 }
 .card h3, h4, h5{
     margin: 0;
 } 
+
+.footer{
+    margin-top: 30px;
+    border-top: 1px solid rgb(238, 238, 238);
+    text-align: center;
+    padding: 50px;
+}
+.footer .email{
+    width: 400px;
+    height: 35px;
+    background-color: aliceblue;
+    margin: auto;
+}
+.info{
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.info div{
+    text-align: justify;
+}
+.language{
+    width: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(237, 237, 237);
+    border-radius: 3px;
+    margin-left: 100px;
+    float: left;
+}
+.language p{
+    margin: 0;
+}
+.coppyright{
+    padding: 10px;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.4;
+    float: left;
+}
+.coppyright i{
+    margin: 0 5px;
+}
+.social{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
